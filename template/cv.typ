@@ -30,10 +30,10 @@ Software engineer with 2+ years of experience writing C/C++, Python and Golang. 
 #chiline()
 *Sumy State University* #h(1fr) _2019/09 -- 2022/04 (Paused)_ \
 Bachelor of Science in Computer Science #h(1fr) _Sumy, Ukraine_ \
-- *Courses*: Algorithms and data structures in C++. Object-oriented programming in Java and Python. \ Relational databases, MySQL and more.
+- *Courses*: Algorithms and data structures in C++, object-oriented programming in Java and Python, \ relational databases, compilers, computer networks and more.
 
 *Ubisoft* #h(1fr) _2022/06 -- 2023/08_ \
-Work under supervision from more senior colleagues, mentorship. #h(1fr) _Ubisoft Stockholm studio_ \
+Work under supervision, mentorship. #h(1fr) _Ubisoft Stockholm studio_ \
 - *Topics*: C++ pair-programming. Code optimizations, profiling, distributed systems, microservices.
 
 == Work Experience
@@ -44,7 +44,7 @@ Junior Software Engineer #h(1fr) _On-site/Stockholm, Sweden_ \
 - Maintained and developed internal sdk for building C++ projects, containerizing and deploying Python services.
 - Enhanced a distributed entity component system #link("https://en.wikipedia.org/wiki/Entity_component_system")[(ECS)] for synchronizing entities in the game world over the network, improving the performance, benchmarking.
 - Implemented a backend for AWS S3 storage both in Python, using async version of AWS sdk, and in C++, using #link("https://curl.se/libcurl/")[libcurl]. The storage was used for caching http requests made to the services producing multimedia content.
-- Maintained and improved custom #link("https://en.wikipedia.org/wiki/Event-driven_architecture")[eventing system]  service in Golang. The system supported multiple NoSQL databases for storing events:  Firestore, FaunaDB and Redis with ElastiCache, depending on the underlying cloud provider.
+- Maintained and improved custom #link("https://en.wikipedia.org/wiki/Event-driven_architecture")[eventing system]  service in Golang. The system utilized multiple NoSQL databases for storing events:  FaunaDB and Redis, depending on the underlying cloud provider.
 - Wrote a #link("https://grpc.io/")[gRPC] python client to interect with the eventing system service for publishing events and listening for updates from multiple event sources.
 - JWT authentication, both in python and Golang, established mutual TLS connection between services.
 - Wrote technical documentation, constantly participated in code reviews.
@@ -53,7 +53,7 @@ Junior Software Engineer #h(1fr) _On-site/Stockholm, Sweden_ \
 #chiline()
 *Distributed key-value storage* #link("https://github.com/isnastish/kvs")[github.com/kvs-storage] #h(1fr) _Since 2024/05_ \ 
 - Designed and implemented a service for storing key-value pairs in memory, aka Redis. Wrote both Golang and Python clients to interact with the service over HTTP using REST api.
-- The service utilises gRPC framework for communication with another service, responsible for persisting transactions. Transaction tracking is needed to recreate the state of the storage in case of abnormal shutdown.
+- The service utilizes gRPC framework for communication with another service, responsible for persisting transactions. Transaction tracking is needed to recreate the state of the storage in case of abnormal shutdown.
 - All transactions are persisted in a Postgres (using #link("https://github.com/jackc/pgx")[PGX] driver/toolkit) or in a binary file.
 
 *Distibuted, multi-client chat* #link("https://github.com/isnastish/chat")[github.com/chat] #h(1fr) _Since 2024/03_ \
@@ -71,7 +71,7 @@ Junior Software Engineer #h(1fr) _On-site/Stockholm, Sweden_ \
 == Skills
 #chiline()
 *Programming languages*: C/C++, Golang, Python, SQL \
-*Technologies*: Docker, Kubernetes, CI/CD, Git, Linux, AWS S3, gRPC, GTEST, PostgreSQL, SQLite,
+*Technologies*: Docker, CI/CD, Git, Linux, AWS S3, gRPC, GTEST, PostgreSQL, SQLite,
 Redis, FaunaDB, HTTP, REST.
 
 // Add an info when a CV was updated the last.
