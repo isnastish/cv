@@ -73,7 +73,7 @@ Junior Software Engineer #h(1fr) _On-site/Stockholm, Sweden_ \
 #chiline()
 *Programming languages*: C/C++, Golang, Python, SQL \
 *Technologies*: Docker, CI/CD, Git, Linux, AWS S3, gRPC, GTEST, PostgreSQL, SQLite,
-Redis, FaunaDB, HTTP, REST, Flask/Quart.
+Redis, FaunaDB, HTTP, REST, Flask/Quart, FastAPI.
 
 // Add an info when a CV was updated the last.
 #h(1fr) #text("Last updated 2024/10") #label("highlight_gray")
