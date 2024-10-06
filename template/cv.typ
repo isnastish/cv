@@ -44,7 +44,7 @@ Junior Software Engineer #h(1fr) _On-site/Stockholm, Sweden_ \
 - Maintained and developed internal sdk for building C++ projects, containerizing and deploying Python services.
 - Enhanced a distributed entity component system #link("https://en.wikipedia.org/wiki/Entity_component_system")[(ECS)] for synchronizing entities in the game world over the network, improving the performance, benchmarking.
 - Implemented a backend for AWS S3 storage both in Python, using async version of AWS sdk, and in C++, using #link("https://curl.se/libcurl/")[libcurl]. The storage was used for caching http requests made to the services producing multimedia content.
-- Maintained and improved custom #link("https://en.wikipedia.org/wiki/Event-driven_architecture")[eventing system]  service in Golang. The system utilized multiple NoSQL databases for storing events:  FaunaDB and Redis, depending on the underlying cloud provider.
+- Maintained and improved custom #link("https://en.wikipedia.org/wiki/Event-driven_architecture")[eventing system]  service in Golang. The system utilized multiple NoSQL databases for storing events:  FaunaDB, Firestore and Redis, depending on the underlying cloud provider.
 - Wrote a #link("https://grpc.io/")[gRPC] python client to interect with the eventing system service for publishing events and listening for updates from multiple event sources.
 - JWT authentication, both in python and Golang, established mutual TLS connection between services.
 - Wrote technical documentation, constantly participated in code reviews.
