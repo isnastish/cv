@@ -24,7 +24,7 @@ alexey.yevtushenko.work\@gmail.com |
 
 == Summary 
 #chiline()
-Software engineer with 2+ years of experience writing C/C++, Python and Golang. I have a solid background in algorithms and data structures and enjoy writing good, maintainable code which solves complex problems. I'm most confident working with Golang and C++ at a lower level of tech stack, including network communication via different protocols, but I'm agnostic to any programming language and have experience with modern technologies like Redis, PostgreSQL, gRPC, common cloud providers, containerization and best security practices.
+Software engineer with 2.5 years of experience writing C/C++, Python and Golang, specializing in backend and microservice development. I have a solid background in algorithms and data structures and enjoy writing good, maintainable code which solves complex problems. I'm most confident working with Golang and Python at a lower level of tech stack, including network communication via different protocols, but I'm agnostic to any programming language and have experience with modern technologies like Redis, PostgreSQL, gRPC, common cloud providers, containerization and best security practices.
 
 == Education
 #chiline()
@@ -48,6 +48,7 @@ Junior Software Engineer #h(1fr) _On-site/Stockholm, Sweden_ \
 - Wrote a #link("https://grpc.io/")[gRPC] python client to interect with the eventing system service for publishing events and listening for updates from multiple event sources.
 - JWT authentication, both in python and Golang, established mutual TLS connection between services.
 - Wrote technical documentation, constantly participated in code reviews.
+- Implemented cloud mutex for mutually exclusive access to cloud resource between services. The lock was acquired by publisning `ACQUIRE` event and released by publishing `RELEASED` event to the earlier mentioned eventing system.  
 
 == Projects
 #chiline()
@@ -60,10 +61,10 @@ Junior Software Engineer #h(1fr) _On-site/Stockholm, Sweden_ \
 - Wrote a distributed chat application which supports multiple backends for persisting messages from connected clients.
 - The backend uses my custom KVS service and Redis (as an alternative), as well as in-memory storage for local development. Service is run inside a docker container listening on TCP/IP protocol to handle incomming connections. Chat server is designed to operate as a finite-state machine #link("https://en.wikipedia.org/wiki/Finite-state_machine")[(FSM)].
 
-*Container library with a custom memory allocation schema*
-#link("https://github.com/isnastish/mylib")[github.com/container-library] #h(1fr) _2023/11 -- 2024/03_
-- Thread-safe C++ library with #link("https://www.youtube.com/watch?v=ypWgAauE9kA&t=51s")[region-based memory management]. 
-- The library supports common data structures: growing arrays, doubly linked lists, hash tables and sets.
+// *Container library with a custom memory allocation schema*
+// #link("https://github.com/isnastish/mylib")[github.com/container-library] #h(1fr) _2023/11 -- 2024/03_
+// - Thread-safe C++ library with #link("https://www.youtube.com/watch?v=ypWgAauE9kA&t=51s")[region-based memory management]. 
+// - The library supports common data structures: growing arrays, doubly linked lists, hash tables and sets.
 
 // Continues on the next page statement
 #align(center)[...continues on the next page... ] #label("highlight_gray")
@@ -72,7 +73,7 @@ Junior Software Engineer #h(1fr) _On-site/Stockholm, Sweden_ \
 #chiline()
 *Programming languages*: C/C++, Golang, Python, SQL \
 *Technologies*: Docker, CI/CD, Git, Linux, AWS S3, gRPC, GTEST, PostgreSQL, SQLite,
-Redis, FaunaDB, HTTP, REST.
+Redis, FaunaDB, HTTP, REST, Flask/Quart.
 
 // Add an info when a CV was updated the last.
-#h(1fr) #text("Last updated 2024/08") #label("highlight_gray")
+#h(1fr) #text("Last updated 2024/10") #label("highlight_gray")
