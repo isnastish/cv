@@ -24,7 +24,7 @@ alexey.yevtushenko.work\@gmail.com |
 
 == Summary 
 #chiline()
-Software engineer with 2.5 years of experience writing C/C++, Python and Golang, specializing in backend and microservice development. I have a solid background in algorithms and data structures and enjoy writing good, maintainable code which solves complex problems. I'm most confident working with Golang and Python at a lower level of tech stack, including network communication via different protocols, but I'm agnostic to any programming language and have experience with modern technologies like Redis, PostgreSQL, gRPC, common cloud providers, containerization and best security practices.
+Software engineer with 3 years of experience writing C/C++, Python and Golang, specializing in backend and microservice development. I have a solid background in algorithms and data structures and enjoy writing good, maintainable code which solves complex problems. I'm most confident working with Golang and Python at a lower level of tech stack, including network communication via different protocols, but I'm agnostic to any programming language and have experience with modern technologies like Redis, PostgreSQL, gRPC, common cloud providers, containerization and best security practices.
 
 == Education
 #chiline()
@@ -49,6 +49,7 @@ Junior Software Engineer #h(1fr) _On-site/Stockholm, Sweden_ \
 - JWT authentication, both in python and Golang, established mutual TLS connection between services.
 - Wrote technical documentation, constantly participated in code reviews.
 - Implemented cloud mutex for mutually exclusive access to cloud resource between services. The lock was acquired by publisning `ACQUIRE` event and released by publishing `RELEASED` event to the earlier mentioned eventing system.  
+- Wrote python library to interact with cloud buckets regardless of the underlying cloud provider.
 
 == Projects
 #chiline()
